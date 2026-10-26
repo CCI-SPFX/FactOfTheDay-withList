@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fact-ofthe-day-client-side-solution",
+    "id": "a1d9ec2d-771c-4789-817c-0def4c51e514",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fact-ofthe-day description"
+      },
+      "longDescription": {
+        "default": "fact-ofthe-day description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fact-ofthe-day Feature",
+        "description": "The feature that activates elements of the fact-ofthe-day solution.",
+        "id": "4ddf4741-5f67-45f1-bede-716bbd2571f2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fact-ofthe-day.sppkg"
+  }
+}
